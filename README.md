@@ -191,3 +191,12 @@ Tests cover encode/decode roundtrips, alignment of identical graphs (= 1.0), ali
 ## License
 
 MIT
+
+## Ecosystem Integration
+
+- Defines the wire protocol and service interfaces for conservation-law enforcement
+- Consumed by `a2a-constraint-protocol` for agent-to-agent constraint communication
+- Integrates with `conservation-regime` for regime-aware protocol handling
+- Feeds `emergent-coupling` for detecting emergent conservation structures
+- Central to the fleet coordination and multi-agent architecture
+
