@@ -188,6 +188,8 @@ cargo test
 
 Tests cover encode/decode roundtrips, alignment of identical graphs (= 1.0), alignment of different graphs (< 1.0), gate approved/rejected/deferred cases, trust thresholds, and routing preference ordering.
 
+Part of the [SuperInstance OpenConstruct](https://github.com/SuperInstance/OpenConstruct) ecosystem.
+
 ## License
 
 MIT
