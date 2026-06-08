@@ -1,6 +1,14 @@
 [package]
 name = "conservation-protocol"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/conservation-protocol"
+description = "Agent communication via Laplacian gossip — the network topology IS the message"
+keywords = ["laplacian", "gossip", "consensus", "agent", "protocol"]
+categories = ["network-programming", "algorithms", "mathematics"]
 
 [dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
