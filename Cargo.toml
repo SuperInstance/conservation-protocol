@@ -1,9 +1,12 @@
 [package]
+rust-version = "1.70"
+readme = "README.md"
 name = "conservation-protocol"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
 repository = "https://github.com/SuperInstance/conservation-protocol"
+documentation = "https://docs.rs/conservation-protocol"
 description = "Agent communication via Laplacian gossip — the network topology IS the message"
 keywords = ["laplacian", "gossip", "consensus", "agent", "protocol"]
 categories = ["network-programming", "algorithms", "mathematics"]
